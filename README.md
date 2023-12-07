@@ -1,9 +1,9 @@
 # hex_game_cc0
 Hex game using Mente Carlo method for AI to decide the next step was created as part of an online C++ course.
-Then, I add GUI to make it look better. AI fills the board 1000 time to see which next move will give the highest winning chance.
+Then, I added GUI to make it look better. AI fills the board 1000 times to see which next move will give the highest winning chance.
 A spanning tree method is used to check the winning condition (connection between top to bottom & left to right).
 The board size can be set upon calling the program. The AI takes longer time (to fill the boards 1000 times) as the board size increases.
-The game with AI run fine on the board size of 3x3 to 12x12. Two player mode is suggested for a larger board size like 15x15 to have no wait time for AI<br>
+The game with AI runs fine on the board size of 3x3 to 12x12. Two player mode is suggested for a larger board size like 15x15 to have no wait time for AI<br>
 
 # Compile and run
 (On linux) run makefile with `make` command to create all executable files.
@@ -13,6 +13,7 @@ The source code is CC0, so use freely with no worry.<br>
 The library SDL2 has zlib license, so still worry free even for a closed-source project.
 
 # Acknowledgement
+* Book: Sanjay Madhav, Game Programming in C++, Addison-Wesley: This book helps me a lot and it can do a lot more <br>
 * Thanks to Dr Ira Pohl to teach me C++. I did hex game in his course and decide to add GUI afterword <br>
 * lazyfoo site helps me to go through SDL library + installation process https://lazyfoo.net/tutorials/SDL/ <br>
 * The SDL2 library was used to create the front-end of this game https://www.libsdl.org/<br>
